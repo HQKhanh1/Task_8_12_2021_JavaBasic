@@ -1,12 +1,14 @@
+package Mutable_Objects_Immutable_Objects;
+
 public class Immutable {
     private int id;
     private String full_name;
-    private double scores;
+    private double test_score;
 
-    public Immutable (int id, String full_name, double scores) {
+    public Immutable (int id, String full_name, double test_score) {
         this.id = id;
         this.full_name = full_name;
-        this.scores = scores;
+        this.test_score = test_score;
     }
 
     public int getID() {
@@ -17,7 +19,7 @@ public class Immutable {
         return full_name;
     }
 
-    public double getScores(){
-        return scores;
+    public double getTestScore(){
+        return test_score;
     }
 }
