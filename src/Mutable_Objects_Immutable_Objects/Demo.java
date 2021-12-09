@@ -1,7 +1,7 @@
 package Mutable_Objects_Immutable_Objects;
 
-public class Main {
-    public static void main(String[] args) {
+public class Demo {
+    public static void main1(String[] args) {
         //Can change the state of the object
         Mutable studentMutable = new Mutable(1,"Huynh Quoc Khanh");
         System.out.println("Id: "+studentMutable.getID() +"\nFull name: " + studentMutable.getFullName());
