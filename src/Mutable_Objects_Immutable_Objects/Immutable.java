@@ -5,7 +5,7 @@ public class Immutable {
     private String full_name;
     private double test_score;
 
-    public Immutable (int id, String full_name, double test_score) {
+    public Immutable(int id, String full_name, double test_score) {
         this.id = id;
         this.full_name = full_name;
         this.test_score = test_score;
@@ -19,7 +19,7 @@ public class Immutable {
         return full_name;
     }
 
-    public double getTestScore(){
+    public double getTestScore() {
         return test_score;
     }
 }
